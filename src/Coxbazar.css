@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+.cox-area {
+  color: white;
+  margin-left: 15px;
+}
+.cox-head {
+  color: white;
+  margin-left: 15px;
+}
+.form-info {
+  background-color: white;
+  height: 280px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.start-book {
+  margin-top: 8px;
+}
+.booking-section {
+  margin-top: 120px;
+}

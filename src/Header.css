@@ -1,0 +1,47 @@
+.logo {
+  height: 74px;
+  width: 139px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 5px;
+}
+.input-search {
+  height: 30px;
+  width: 370px;
+  background-color: silver;
+  border: none;
+  border-radius: 5px;
+}
+.input-search:focus {
+  outline: none;
+}
+.search-icon {
+  color: white;
+  box-shadow: 3px 2px 5px silver;
+}
+.input-icon {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  flex: 1;
+}
+.nav-link {
+  font-weight: 600;
+  font-size: 20px;
+}
+.navbar-nav {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.button-login {
+  background-color: #f5a81a;
+  color: #070707 !important;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.nav-btn {
+  color: white !important;
+}
+.button-login:hover {
+  background-color: grey;
+}

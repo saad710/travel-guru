@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
+    url("./images/Rect1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
