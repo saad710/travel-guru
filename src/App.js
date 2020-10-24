@@ -13,6 +13,7 @@ import Sremangal from './Sremangal';
 import Sundarbans from './Sundarbans';
 import Login from './Login';
 import CoxHotel from './CoxHotel';
+import PrivateRoute from './PrivateRoute';
 
 
 export const UserContext = createContext();
@@ -38,9 +39,9 @@ function App() {
       <Route path = "/login">
         <Login/>
       </Route>
-      <Route path = "/coxhotel">
+      <PrivateRoute path = "/coxhotel">
         <CoxHotel/>
-      </Route>
+      </PrivateRoute>
       <Route exact path = "/">
         <Home/>
       </Route>

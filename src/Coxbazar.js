@@ -19,7 +19,7 @@ const Coxbazar = () => {
                        <input className="form-control" type="text" placeholder="From"/>
                        <h4>Destination</h4>
                        <input className="form-control" type="text" placeholder="To"/>
-                       <Link to="/login">
+                       <Link to="/coxhotel">
                             <button className="btn btn-warning start-book">Start Booking</button>
                        </Link>
                    </form>

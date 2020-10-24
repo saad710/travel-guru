@@ -9,8 +9,10 @@
   width: 230px;
 }
 .card-body {
-  background-color: rgba(245, 245, 245, 1);
+  background-color: yellow !important;
+  box-shadow: 3px 2px 5px silver;
   opacity: 0.4;
+  color: black !important;
 }
 .card:hover {
   transform: scale(1.09);

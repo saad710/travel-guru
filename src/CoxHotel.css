@@ -1,0 +1,33 @@
+.star-icon {
+  color: orange;
+}
+.star-part {
+  display: flex;
+}
+.coxhotel-section h5,
+h2,
+p {
+  color: White;
+}
+.coxhotel-section h3 {
+  color: orange;
+}
+.cox-header {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.cox-header h5,
+h2 {
+  color: orange !important;
+}
+.coxhotel-section img {
+  width: 400px;
+  height: 300px;
+}
+.cox-details {
+  margin-top: 45px;
+}
+.cox-row {
+  margin-left: 20px;
+}

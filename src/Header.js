@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import "./Header.css";
 import Logo from "./images/logoW.png";
 import SearchIcon from '@material-ui/icons/Search';
 import { Link } from 'react-router-dom';
+import { UserContext } from './App';
+import Login from './Login';
 
 const Header = () => {
     return (
@@ -37,7 +39,7 @@ const Header = () => {
         <a class="nav-link nav-btn" href="#">Contact</a>
       </li>
       <li class="nav-item button-login">
-        <a class="nav-link" href="/login">Login</a>
+      <a class="nav-link" href="/login">Login</a>
       </li>
     </ul>
   </div>
